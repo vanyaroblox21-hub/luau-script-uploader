@@ -1,6 +1,6 @@
-# Luau Hub
+# Pastefy
 
-A production-ready Next.js App Router interface for publishing Roblox Luau scripts to Pastefy or Pastebin, with generated raw URLs and loadstrings.
+Pastefy is a polished Next.js App Router workspace for publishing Roblox Luau scripts to Pastefy or Pastebin. It generates the raw URL and a copy-ready `loadstring(game:HttpGet(...))()` wrapper.
 
 ## Run locally
 
@@ -10,3 +10,5 @@ npm run dev
 ```
 
 Pastebin uploads use `app/api/pastebin/route.ts` as a same-origin server proxy because Pastebin's API does not support browser CORS. Pastefy is called directly from the browser according to its API contract.
+
+Only publish and execute code you own or trust, and follow the terms of Roblox and each paste provider.
